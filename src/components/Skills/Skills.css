@@ -1,0 +1,89 @@
+/* .skill{
+    box-sizing: content-box;
+    border:1px solid transparent;
+    box-shadow: 0px  0px 8px 0px rgb(19 191 175); 
+    margin-top: 8%;
+}
+
+
+.skills_para{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 15px;
+    color: #198754;
+    font-size: 2.5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skill_list{
+    font-size: 2vmax;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skill hr{
+   margin: 0 auto;
+    width: 50%;
+}
+
+.skilled-container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    margin-top: 4rem;
+}
+
+@media(max-width: 768px){ 
+    .skilled-container{
+    display: block;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin-top: 4rem;
+}
+
+.skill{
+   width: 95%!important;
+}
+
+.cards{
+    width: 100%!important;
+}
+
+.per{
+    margin-left: 10%!important;
+}
+} */
+
+.skilled-container{
+    
+   margin-top: 1rem;
+   box-sizing: content-box;
+    border:1px solid transparent;
+    box-shadow: 0px  0px 8px 0px rgb(19 191 175); 
+}
+
+.left-container{
+  
+    margin-top: 2rem;
+}
+.skill-percentage{
+    display: flex;
+  
+    margin: 0px 10rem;
+}
+.skilled-paragraph{
+    margin: 0.8rem 1rem;
+}
+
+.skills_para{
+    
+    font-weight: bolder;
+    color: #198754;
+    font-size: 2.5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:820px) {
+    .skilled-container{
+        display: block!important;
+    }
+}

@@ -1,0 +1,121 @@
+.about-page{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url('../assets/bg-f2f2f2.jpg');
+}
+
+
+
+.hello-word{
+    color: rgb(22, 112, 103);
+}
+.about-para{ 
+    font-weight: bold;
+    font-size: 1.5vmax;
+    color: rgb(22, 112, 103);
+    text-align: justify;
+}
+
+@media screen and (max-width:992px) {
+   .yes{
+      display: block!important;
+   }
+}
+@media screen and (min-width:576px)and (max-width:352px){ 
+   .about-page{
+     display: block;
+     margin-top: 8rem;
+}
+}
+
+@media screen and (min-width:352px)and (max-width:576px){ 
+   .about-page{
+     display: block;
+     margin-top: 9rem!important;
+}
+}
+
+
+@media screen and (min-device-width: 280px) and (max-device-width: 360px) { 
+   .about-page{
+    display: block;
+    justify-content: end;
+    margin-top: 140px;
+}
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 390px) { 
+   .about-page{
+    display: block;
+    justify-content: end;
+    margin-top: 60px;
+}
+}
+@media screen and (min-device-width: 390px) and (max-device-width: 412px) { 
+   .about-page{
+    display: block;
+    justify-content: end;
+    margin-top: 15px;
+}
+}
+@media screen and (min-device-width: 412px) and (max-device-width: 414px) { 
+   .about-page{
+    display: block;
+    justify-content: end;
+    margin-top: 8px;
+}
+}
+@media screen and (min-device-width: 414px) and (max-device-width: 540px) { 
+   .about-page{
+    display: block;
+    justify-content: end;
+    margin-top: 10px;
+}
+}
+
+@media screen and (min-device-width: 540px) and (max-device-width: 768px) { 
+   .about-page{
+    position: absolute;
+    top: 62%;
+   left: 50%;
+
+}
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 820px) { 
+   .about-page{
+    position: absolute;
+    top: 35%;
+   left: 50%;
+
+}
+}
+@media screen and (min-device-width: 820px) and (max-device-width: 1024px) { 
+   .about-page{
+    position: absolute;
+    top: 34%;
+   left: 50%;
+
+}
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px){ 
+   .about-page{
+    display: flex;
+   margin-top: 85px;
+}
+}
+@media screen and (min-device-width: 1280px) and (max-device-width: 1282px){ 
+   .about-page{
+   position: absolute;
+   top: 30%;
+}
+}
+@media screen and (max-width:490){ 
+   .about-page{
+       display: block;
+ 
+}
+}

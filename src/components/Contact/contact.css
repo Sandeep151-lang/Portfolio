@@ -1,0 +1,27 @@
+.contact{
+    width: 100%;
+    margin-top: 50px;
+    background-image: url('../assets/bg-f2f2f2.jpg');
+    background-repeat: no-repeat;
+}
+.details{
+    margin-top: 20%;
+}
+.contact_details{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.contact_details span{
+    font-size: 1.1rem;
+    color: rgba(56, 60, 40, 0.652);
+    
+}
+@media (max-width: 729px) {
+.cards{
+  width: 100%;
+  display: block;
+}
+.details{
+    margin: 20%;
+}
+}
