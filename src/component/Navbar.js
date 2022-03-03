@@ -13,23 +13,23 @@ const Navbar = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
 
-                            <a className="nav-link  home" aria-current="page"><Link to="/">Home</Link></a>
+                            <a className="nav-link  home" aria-current="page" href><Link to="/">Home</Link></a>
                         </li>
 
                     </ul>
                     <form className="">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex nav-list">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page"><Link to="/About">About</Link></a>
+                                <a className="nav-link active" aria-current="page" href><Link to="/About">About</Link></a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="skill"><Link to="/skill">Skills</Link></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link"><Link to="/projects">Project</Link></a>
+                                <a className="nav-link" href><Link to="/projects">Project</Link></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link"><Link to="/certificate">Certificate</Link></a>
+                                <a className="nav-link" href><Link to="/certificate">Certificate</Link></a>
                             </li>
 
                         </ul>
