@@ -11,6 +11,8 @@ import Interest from './components/Interest/Achievements/Interest'
 import Certificate from './components/Certificate/Certificate'
 import About from './components/About/About'
 import Skilled from './components/Skills/Skilled'
+import Sample from './components/Sample'
+import Footer from './components/Footer/Footer'
 //import Footer from './components/Footer/Footer'
 
 const App = () => {
@@ -27,8 +29,9 @@ const App = () => {
           <Route path="/interest" component={Interest} />
           <Route path="/contact" component={Contact} />
           <Route path="/About" component={About} />
+          <Route path='/sample' component={Sample} />
         </Switch>
-
+        <Footer />
 
         {/*  */}
         {/* <Inter<HomePage />

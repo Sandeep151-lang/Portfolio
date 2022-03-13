@@ -31,6 +31,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <a className="nav-link" href><Link to="/certificate">Certificate</Link></a>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href><Link to="/interest">Interest/Achievements</Link></a>
+                            </li>
 
                         </ul>
                     </form>

@@ -1,13 +1,17 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import certificate from '../assets/GuviCertification.png'
+import certificate1 from '../assets/sample2.png'
 
 const Certificate = () => {
     return (
         <div>
-            <Container className='mt-5 certificate'>
-                <img src={certificate} width='100%' height='500' alt='certificate' />
-            </Container>
+            <div className='mt-5 certificate text-center'>
+                <img src={certificate} width='50%' height='50%' alt='certificate' className='cert-img' />
+            </div>
+            <div className='mt-5 certificate text-center'>
+                <img src={certificate1} width='50%' height='50%' alt='certificate' className='cert-img' />
+            </div>
 
         </div>
     )

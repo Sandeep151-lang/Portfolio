@@ -6,10 +6,21 @@
 .left{
     margin-top: 40%;
 } */
+/* .typing{
+    animation: typing 1.5s steps(10) infinite;
+}
+
+
+@keyframes typing{
+    100%{
+        margin: 0 -35px 0 -35px;
+    } */
+/* } */
 
 .home-part{
     height: 100%;
 }
+
 .left p{ 
     font-weight: bold;
     
@@ -45,14 +56,270 @@
     background-color: turquoise!important;
     color: white!important;
 }
-.image{
-    margin-top: 25px;
+.about-image{
+  position: absolute;
+  animation: myfirst 4s 1;
+  animation-direction: left;
+right: 20%;
 }
 
-@media screen and (max-width:992px) {
+.left{
+     position: absolute;
+  animation: mySecond 4s 1;
+  animation-direction: left;
+left: 25%;
+top: 45%;
+
+}
+/* .image-about{
+    position: relative;
+} */
+@keyframes mySecond {
+ from {left: 0;}
+  to {left: 25%;}
+}
+
+@keyframes myfirst {
+ from {right: 0;}
+  to {right: 20%;}
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+.animation-area{
+    /* background: linear-gradient(to left, #e9e5eb,#ebe8e8); */
+    width:100%;
+    height:100vh;
+   
+}
+
+.box-area{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.box-area li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(99, 14, 14, 0.2);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.card-part{
+    display: flex;
+    width: 100%;
+    
+}
+.mid-card{
+    margin-left:10px ;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:310px) {
+
+     .yes{
+        display: block!important;
+    }
+    .left{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+    .image-about{
+        position: absolute;
+        top: 27%;
+        left: 22%;
+    }
+    .card-part{
+        width: 50%;
+        position: relative;
+        display: block!important;
+    }
+  .mid-card{
+    margin: 9px 0px;
+}
+    
+}
+
+
+@media screen and (min-width:310px) and (max-width:540px) {
     .yes{
         display: block!important;
     }
+    .left{
+        position: absolute;
+        top: 10%;
+    }
+    .image-about{
+        position: absolute;
+        top: 27%;
+        left: 15%;
+    }
+    .card-part{
+        width: 50%;
+        position: relative;
+        left: 10%;
+        display: block!important;
+    }
+  .mid-card{
+    margin: 9px 0px;
+}
+}
+@media screen and (min-width:540px) and (max-width:768px) {
+    .yes{
+        display: block!important;
+    }
+    .left{
+        position: absolute;
+        top: 10%;
+        left: 30%;
+    }
+    .image-about{
+        position: absolute;
+        top: 27%;
+        left: 1%;
+    }
+    .card-part{
+        width: 50%;
+        position: relative;
+        left: 20%;
+        display: block!important;
+    }
+  .mid-card{
+    margin: 9px 0px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:912px) {
+    .yes{
+        display: block!important;
+    }
+    .left{
+        position: absolute;
+        top: 10%;
+        left: 30%;
+    }
+    .image-about{
+        position: absolute;
+        top: 27%;
+        left: -10%;
+    }
+    .card-part{
+        width: 50%;
+        position: relative;
+        
+        left: 20%;
+        display: block!important;
+    }
+  .mid-card{
+    margin: 9px 0px;
+}
+.animation-area{
+    /* background: linear-gradient(to left, #e9e5eb,#ebe8e8); */
+    width:100%;
+    height:80vh;
+   
+}
+}
+@media screen and (min-width:912px) and (max-width:968px) {
+    .yes{
+        display: block!important;
+    }
+    .left{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+    }
+    .image-about{
+        position: absolute;
+        top: 27%;
+        left: 1%;
+    }
+    .card-part{
+        width: 50%;
+        position: relative;
+        
+        left: 20%;
+        display: block!important;
+    }
+  .mid-card{
+    margin: 9px 0px;
+}
+.animation-area{
+    /* background: linear-gradient(to left, #e9e5eb,#ebe8e8); */
+    width:100%;
+    height:80vh;
+   
+}
 }
 /* 
 @media(max-width: 767px){ 

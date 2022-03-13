@@ -1,26 +1,52 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Container } from 'react-bootstrap'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import './Skills.css'
 
+
 const Skilled = () => {
+
+    const [state, setstate] = useState(0);
+    const [css, setcss] = useState(0);
+    const [react, setreact] = useState(0)
+    const [bootstrap, setbootstrap] = useState(0)
+    const [javascript, setjavascript] = useState(0)
+    const [nodejs, setnodejs] = useState(0)
+    const [mongodb, setmongodb] = useState(0);
+    const [express, setexpress] = useState(0)
 
     const mystyle = {
         width: 50,
-        height: 50
+        height: 50,
     }
 
-    const percentage = 66;
+
+    useEffect(() => {
+        val()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
+    const val = () => {
+        setstate(state + 80)
+        setcss(css + 70)
+        setreact(react + 66)
+        setbootstrap(bootstrap + 77)
+        setjavascript(javascript + 66)
+        setnodejs(nodejs + 50)
+        setmongodb(mongodb + 60);
+        setexpress(express + 65)
+
+    }
+
     return (
         <>
-
             <h4 className='skills_para text-center mt-5'>Skills</h4>
             <Container className='skilled-container d-flex justify-content-evenly'>
                 <Container className='mt-5 mx-5'>
                     <div className=' text-center d-flex mx-5 '>
                         <p style={mystyle}><CircularProgressbar
-                            value={percentage}
+                            value={state}
                             text={`${80}%`}
                             styles={buildStyles({ pathColor: `green`, textColor: 'green' })}
                         /></p>
@@ -28,15 +54,16 @@ const Skilled = () => {
                     </div>
                     <div className='d-flex text-center my-5 mx-5'>
                         <p style={mystyle}><CircularProgressbar
-                            value={percentage}
+                            value={css}
                             text={`${70}%`}
                             styles={buildStyles({ pathColor: `red`, textColor: 'red' })}
+                            trackPathColor="transparent"
                         /></p>
                         <p className='skilled-paragraph'>CSS3</p>
                     </div>
                     <div className='d-flex text-center my-5 mx-5'>
                         <p style={mystyle}><CircularProgressbar
-                            value={percentage}
+                            value={react}
                             text={`${66}%`}
                             styles={buildStyles({ pathColor: `#198754`, textColor: '#198754' })}
                         /></p>
@@ -44,7 +71,7 @@ const Skilled = () => {
                     </div>
                     <div className='d-flex text-center my-5 mx-5'>
                         <p style={mystyle}><CircularProgressbar
-                            value={percentage}
+                            value={70}
                             text={`${70}%`}
                             styles={buildStyles({ pathColor: `purple`, textColor: 'purple' })}
                         /></p>
@@ -55,7 +82,7 @@ const Skilled = () => {
                 <Container className='mt-5 mx-5'>
                     <div className='d-flex text-center mx-5'>
                         <p style={{ width: 50, height: 50 }}><CircularProgressbar
-                            value={percentage}
+                            value={javascript}
                             text={`${66}%`}
                             styles={buildStyles({ pathColor: `vanilla`, textColor: 'vanilla' })}
                         /></p>
@@ -63,7 +90,7 @@ const Skilled = () => {
                     </div>
                     <div className='d-flex text-center my-5 mx-5'>
                         <p style={{ width: 50, height: 50 }}><CircularProgressbar
-                            value={percentage}
+                            value={nodejs}
                             text={`${50}%`}
                             styles={buildStyles({ pathColor: `#ffa500ab`, textColor: `#ffa500ab` })}
                         /></p>
@@ -71,7 +98,7 @@ const Skilled = () => {
                     </div>
                     <div className='d-flex text-center my-5 mx-5'>
                         <p style={{ width: 50, height: 50 }}><CircularProgressbar
-                            value={percentage}
+                            value={mongodb}
                             text={`${60}%`}
                             styles={buildStyles({ pathColor: `green`, textColor: `green` })}
                         /></p>
@@ -79,8 +106,8 @@ const Skilled = () => {
                     </div>
                     <div className='d-flex text-center my-5 mx-5'>
                         <p style={{ width: 50, height: 50 }}><CircularProgressbar
-                            value={65}
-                            text={`${percentage}%`}
+                            value={express}
+                            text={`${65}%`}
                             styles={buildStyles({ pathColor: `red`, textColor: 'red' })}
                         /></p>
                         <p className='skilled-paragraph'>Express</p>
