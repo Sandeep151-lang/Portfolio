@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
 import certificate from '../assets/GuviCertification.png'
 import certificate1 from '../assets/sample2.png'
 
