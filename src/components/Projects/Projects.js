@@ -13,7 +13,7 @@ import { SiHeroku } from 'react-icons/si';
 const Projects = () => {
     return (
         <>
-            <Container className='mt-5'>
+            <Container className='mt-5 project-part'>
                 <Card >
                     <CardBody style={{ 'border': '2px solid green' }}>
                         <CardTitle>
@@ -21,7 +21,7 @@ const Projects = () => {
                             <hr />
                         </CardTitle>
                         <CardTitle>
-                            <p style={{ 'fontFamily': "sans-serif" }}>E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet. E-commerce draws on technologies such as mobile commerce, electronic funds transfer,
+                            <p>E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet. E-commerce draws on technologies such as mobile commerce, electronic funds transfer,
                                 supply chain management, Internet marketing, online transaction processing,
                                 electronic data interchange (EDI), inventory management systems,
                                 and automated data collection systems. E-commerce is in turn driven by
@@ -47,7 +47,7 @@ const Projects = () => {
                             <hr />
                         </CardTitle>
                         <CardTitle>
-                            <p style={{ 'fontFamily': "sans-serif" }}>Rental, also known as hiring or letting is an agreement where payment is made for the
+                            <p>Rental, also known as hiring or letting is an agreement where payment is made for the
                                 temporary use of a good, service or property owened by another.
                                 A gross lease is when the tenant pays a flat rental amount and the landlords pays for
                                 all property charges regularly incurred by the ownership</p>
@@ -66,7 +66,7 @@ const Projects = () => {
                             <hr />
                         </CardTitle>
                         <CardTitle>
-                            <p style={{ 'fontFamily': "sans-serif" }}>A web chat is a system that allows users to communicate in real-time using
+                            <p>A web chat is a system that allows users to communicate in real-time using
                                 easily accessible web interfaces. It is a type of Internet online chat distinguished by its simplicity and accessibility
                                 to users who do not wish to take the time to install and learn to use specialized chat software.[1] This trait allows users
                                 instantaneous access and only a web browser is required to chat. Users will always get the latest version of a chat service

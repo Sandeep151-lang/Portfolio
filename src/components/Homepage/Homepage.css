@@ -1,24 +1,11 @@
-/* .body{
-    width: 90%;
- 
 
+.yes{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
 }
-.left{
-    margin-top: 40%;
-} */
-/* .typing{
-    animation: typing 1.5s steps(10) infinite;
-}
-
-
-@keyframes typing{
-    100%{
-        margin: 0 -35px 0 -35px;
-    } */
-/* } */
-
 .home-part{
     height: 100%;
+    
 }
 
 .left p{ 
@@ -119,7 +106,7 @@ top: 45%;
     list-style: none;
     width: 25px;
     height: 25px;
-    background: rgba(99, 14, 14, 0.2);
+    background: rgba(22, 3, 3, 0.2);
     animation: animate 20s linear infinite;
     bottom: -150px;
 }
@@ -175,6 +162,7 @@ top: 45%;
 
 .card-part{
     display: flex;
+    justify-content: space-evenly;
     width: 100%;
     
 }
@@ -306,9 +294,9 @@ top: 45%;
     }
     .card-part{
         width: 50%;
-        position: relative;
+        position: absolute;
         
-        left: 20%;
+        left: 30%;
         display: block!important;
     }
   .mid-card{
@@ -321,32 +309,3 @@ top: 45%;
    
 }
 }
-/* 
-@media(max-width: 767px){ 
-  .image{
-    height: 200px;
-    margin-left: 80%;
-  }
-  .hire{
-      font-size: 2vmax!important;
-  }
-   .cv{
-      font-size: 1.8vmax!important;
-     
-
-  }
-  .left p{
-      font-size: 2vmax!important;
-  }
-   .left span{
-      font-size: 1.8vmax!important;
-  }
- .cards{
-  width: 100%;
-  
-}
-}
-
-.resume:hover{
-    color: white!important;
-} */

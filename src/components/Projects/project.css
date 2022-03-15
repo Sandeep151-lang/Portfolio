@@ -1,3 +1,10 @@
+.project-part{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+ font-size: 1.3rem;
+ letter-spacing: 0.5px;
+}
+
 .project_header{  
     width: 100%;
     

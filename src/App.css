@@ -1,3 +1,9 @@
+body{
+  scroll-behavior: smooth;
+  background-color: rgb(24, 122, 90);
+}
+
+
 .hello{
    width: 100px;
   height: 100px;
@@ -15,12 +21,14 @@ left: 20%;
   to {left: 20%;}
 }
 .n{
-  width: 100%;
+  width: 80%;
   position: fixed;
   top: 0;
   z-index: 1;
   padding: 10px 0;
   background-color: rgba(79, 124, 186, 0.809);
+  font-weight: bold;
+
 }
 
 .icon:hover{

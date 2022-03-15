@@ -27,7 +27,8 @@ const HomePage = () => {
             <Container className=' yes mt-5 d-flex justify-content-evenly '>
                 <Container>
                         <Container className=' left'>
-                        <p className='paragraph'>Hello, <span >I am Sandeep Nandanwar</span></p>
+                            <p className='paragraph'>Hello, <span >I am Sandeep Nandanwar</span></p>
+                            <p>Web Designer</p>
                         <Button variant="secondary hire" ><Link to="/contact"><span className='hire-span text-white'>Hire Me</span></Link></Button>
                         <Button variant="secondary" className='cv'><a href="https://drive.google.com/file/d/1UVMhV05pYdQJHASCK6k-UsLjKyuwgvJp/view" target="_blank" rel="noreferrer"><span className='resume'>Resume</span></a></Button>
                     </Container>
@@ -37,7 +38,8 @@ const HomePage = () => {
                 </Container>
                 </Container>
             </div>
-            <div className='container card-part mb-5 '>
+            <Container>
+                <div className=' card-part mb-5 ml-5'>
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
@@ -79,7 +81,7 @@ const HomePage = () => {
                 </div>
 
             </div>
-
+            </Container>
 
         </>
 
