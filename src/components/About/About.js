@@ -25,15 +25,12 @@ const About = () => {
                     </p>
                     <p className='about-para'>
                         <span style={{ 'color': 'black' }}>College:</span> B.E. from  S.B JAIN INSTITUTE OF TECHNOLOGY MANAGEMENT & RESEARCH
-
                     </p>
                     <p className='about-para'>
                         <span style={{ 'color': 'black' }}>Stream: </span>Computer Science & Engineering
-
                     </p>
                 <hr />
-                <a href="https://github.com/Sandeep151-lang?tab=repositories" target="_blank" rel="noreferrer" className='text-center' style={{ "fontWeight": "bold" }}><AiFillGithub style={{ width: 20, height: 20 }} /> Github</a>
-
+                    <a href="https://github.com/Sandeep151-lang?tab=repositories" target="_blank" rel="noreferrer" className='text-center' style={{ "fontWeight": "bold" }}><AiFillGithub style={{ width: 20, height: 20 }} /> Github</a>
             </Container>
                 <Container className='text-center center' >
 
