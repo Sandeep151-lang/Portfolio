@@ -27,10 +27,11 @@ const HomePage = () => {
             <Container className=' yes mt-5 d-flex justify-content-evenly '>
                 <Container>
                         <Container className=' left'>
-                            <p className='paragraph'>Hello, <span >I am Sandeep Nandanwar</span></p>
-                            <p>Web Designer</p>
+                            <h1 className='paragraph'>Hello,</h1>
+                            <h3>I am Sandeep Nandanwar</h3>
+
                         <Button variant="secondary hire" ><Link to="/contact"><span className='hire-span text-white'>Hire Me</span></Link></Button>
-                        <Button variant="secondary" className='cv'><a href="https://drive.google.com/file/d/1UVMhV05pYdQJHASCK6k-UsLjKyuwgvJp/view" target="_blank" rel="noreferrer"><span className='resume'>Resume</span></a></Button>
+                            <Button variant="secondary" className='cv'><a href="https://drive.google.com/file/d/1N6I9hjsscE4Rqo9w8jxxA4Tc45inTYe2/view?usp=sharing" target="_blank" rel="noreferrer"><span className='resume'>Resume</span></a></Button>
                     </Container>
                 </Container>
                     <Container className='image-about'>
@@ -47,12 +48,14 @@ const HomePage = () => {
                         </div>
                         <div className="flip-card-back" >
                             <a href="https://github.com/Sandeep151-lang?tab=repositories" target="_blank" rel="noreferrer" style={{ cursor: 'pointer' }}>
-                                <div className='mt-5 text-white'>
+                                    <div className='mt-2 text-white'>
                                     <p>35 Repositories</p>
                                     <hr />
-                                    <p>2 Mern Projects</p>
-                                    <p>1 Socket Base Chat Projects</p>
-                                    <p>1 React with firebase Projects</p>
+                                        <p>3 Mern Projects</p>
+                                        <p>1 Socket Base Chat Projects</p>
+                                        <p>Ecommerce Clone</p>
+                                        <p>Hiring Product</p>
+                                        <p>Movie Ticket Booking</p>
                                     <p>Task in React ,Html , Nodejs </p>
                                 </div>
                             </a>
