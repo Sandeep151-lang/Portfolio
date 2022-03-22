@@ -31,7 +31,7 @@ const HomePage = () => {
                             <h3>I am Sandeep Nandanwar</h3>
 
                         <Button variant="secondary hire" ><Link to="/contact"><span className='hire-span text-white'>Hire Me</span></Link></Button>
-                            <Button variant="secondary" className='cv'><a href="https://drive.google.com/file/d/1DcY5R4clvT8sItDlKzoFsP56vILqUZWy/view?usp=sharing" target="_blank" rel="noreferrer"><span className='resume'>Resume</span></a></Button>
+                            <Button variant="secondary" className='cv'><a href="https://drive.google.com/file/d/1D6ln2rjCyYFZw9gI_c_ZmeG2RUtaby71/view?usp=sharing" target="_blank" rel="noreferrer"><span className='resume'>Resume</span></a></Button>
                     </Container>
                 </Container>
                     <Container className='image-about'>
