@@ -62,6 +62,27 @@ const Projects = () => {
                 <Card className='mt-2'>
                     <CardBody style={{ 'border': '2px solid green' }}>
                         <CardTitle>
+                            <h5 className='text-center card-head'>Movie Ticket Booking</h5>
+                            <hr />
+                        </CardTitle>
+                        <CardTitle>
+                            <p>Online Movie Ticket Booking System” is the process whereby consumers directly buy
+                                movie tickets online from a multiplex website interactively in real-time without an
+                                intermediary service over the Internet. The Given System provides the detailed working of the
+                                Online Movie Ticket Booking Processing and what all happens whenever we or any one of us goes to
+                                book movie tickets online.
+                            </p>
+                        </CardTitle>
+                        <CardTitle className='d-flex justify-content-evenly project-link'>
+
+                            <h6 className='app-link'><span className='view-app'><a href="https://movieticketbook.herokuapp.com/" target="_blank" >View App <SiHeroku /></a></span></h6>
+                            <h6 className='app-link'> <span className='view-app'><a href="https://github.com/Sandeep151-lang/TicketBooking" target="_blank" >View code <AiFillGithub /></a></span></h6>
+                        </CardTitle>
+                    </CardBody>
+                </Card>
+                <Card className='mt-2'>
+                    <CardBody style={{ 'border': '2px solid green' }}>
+                        <CardTitle>
                             <h5 className='text-center card-head'>Chat App</h5>
                             <hr />
                         </CardTitle>
