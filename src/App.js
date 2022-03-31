@@ -5,7 +5,7 @@ import HomePage from './components/Homepage/Homepage'
 //import Skills from './components/Skills/Skills'
 import Navbar from './component/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Projects from './components/Projects/Projects'
+//import Projects from './components/Projects/Projects'
 import Project from './components/Project1/Project'
 import Contact from './components/Contact/Contact'
 import Interest from './components/Interest/Achievements/Interest'
