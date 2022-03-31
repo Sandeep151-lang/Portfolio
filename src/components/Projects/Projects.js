@@ -14,18 +14,21 @@ const Projects = () => {
     return (
         <>
             <Container className='mt-5 project-part'>
-                <Card >
-                    <CardBody style={{ 'border': '2px solid green' }}>
+                <Card className='w3-card-4' style={{ width: '50%' }}>
+                    <CardBody >
                         <CardTitle>
                             <h5 className='text-center card-head'>Ecommerce Clone</h5>
                             <hr />
                         </CardTitle>
-                        <CardTitle>
-                            <p>E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet. E-commerce draws on technologies such as mobile commerce, electronic funds transfer,
+                        <CardTitle >
+
+                            <p>E-commerce (electronic commerce) is the activity of electronically buying or selling of
+                                products on online services or over the Internet. E-commerce draws on technologies such as mobile commerce, electronic funds transfer,
                                 supply chain management, Internet marketing, online transaction processing,
                                 electronic data interchange (EDI), inventory management systems,
                                 and automated data collection systems. E-commerce is in turn driven by
-                                the technological advances of the semiconductor industry, and is the largest sector of the electronics industry.</p>
+                                the technological advances of the semiconductor industry, and is the
+                                largest sector of the electronics industry.</p>
 
                         </CardTitle>
                         <CardTitle className='d-flex justify-content-evenly project-link'>
@@ -40,7 +43,7 @@ const Projects = () => {
                         </CardTitle>
                     </CardBody>
                 </Card>
-                <Card className='mt-2'>
+                <Card className='mt-2 w3-card-4'>
                     <CardBody style={{ 'border': '2px solid green' }}>
                         <CardTitle>
                             <h5 className='text-center card-head'>Equipment Hiring</h5>
@@ -59,7 +62,7 @@ const Projects = () => {
                         </CardTitle>
                     </CardBody>
                 </Card>
-                <Card className='mt-2'>
+                <Card className='mt-2 w3-card-4'>
                     <CardBody style={{ 'border': '2px solid green' }}>
                         <CardTitle>
                             <h5 className='text-center card-head'>Movie Ticket Booking</h5>
@@ -80,7 +83,7 @@ const Projects = () => {
                         </CardTitle>
                     </CardBody>
                 </Card>
-                <Card className='mt-2'>
+                <Card className='mt-2 w3-card-4'>
                     <CardBody style={{ 'border': '2px solid green' }}>
                         <CardTitle>
                             <h5 className='text-center card-head'>Chat App</h5>

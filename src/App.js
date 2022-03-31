@@ -6,6 +6,7 @@ import HomePage from './components/Homepage/Homepage'
 import Navbar from './component/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from './components/Projects/Projects'
+import Project from './components/Project1/Project'
 import Contact from './components/Contact/Contact'
 import Interest from './components/Interest/Achievements/Interest'
 import Certificate from './components/Certificate/Certificate'
@@ -22,7 +23,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/skill" component={Skilled} />
-          <Route path="/projects" component={Projects} />
+          <Route path="/projects" component={Project} />
           <Route path="/certificate" component={Certificate} />
           <Route path="/interest" component={Interest} />
           <Route path="/contact" component={Contact} />

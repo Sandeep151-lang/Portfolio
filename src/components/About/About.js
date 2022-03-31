@@ -9,7 +9,9 @@ import { AiFillGithub } from 'react-icons/ai';
 const About = () => {
     return (
         <>
-        <Container className=' mt-5 d-flex yes'>
+
+            <Container className=' mt-5 d-flex yes'>
+
             <Container className='center p-3'>
                 <h4><span className='hello-word'>Hello ,</span> I'm Sandeep Nandanwar</h4>
                 <hr />

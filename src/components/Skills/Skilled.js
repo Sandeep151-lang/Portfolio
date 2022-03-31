@@ -71,7 +71,7 @@ const Skilled = () => {
                     </div>
                     <div className='d-flex text-center my-5 mx-5'>
                         <p style={mystyle}><CircularProgressbar
-                            value={70}
+                            value={bootstrap}
                             text={`${70}%`}
                             styles={buildStyles({ pathColor: `purple`, textColor: 'purple' })}
                         /></p>
